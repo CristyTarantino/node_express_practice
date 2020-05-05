@@ -1,5 +1,5 @@
-const passport    = require('passport');
-const bcrypt      = require('bcrypt');
+const passport = require("passport");
+const bcrypt = require("bcrypt");
 const mongoose = require("mongoose");
 
 module.exports = function(app, userModel, db) {
